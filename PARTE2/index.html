@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="TODO">
+        <!--BARRA DE NAVEGACION-->
+        <div class="arreglo">
+            <div class="nav"><h1>Network</h1></div>
+            <div><h1>Your Feed</h1></div>
+        </div>
+        <!--Lo siguiente son bloques de información-->
+        <div class="main-menu">
+            <div class="Columna1">
+                <div class="perfil">
+                    <img src="images/user.png" alt="avatar">
+                    <a href="#">Add an avatar</a> <br>
+                    <p>James Doe</p>
+                </div>
+            </div>
+            <div class="Columna2">
+                <div class="amigos">
+                    <div class="amigo1">
+                        <div class="barra1">
+                            <div class="nombre">
+                                <h1>Neil M</h1>
+                            </div>
+                            <div class="likes">
+                                <h5 class="contador1">9 like(s)</h5>
+                                <button class="like" onclick="AddLike1()">Like<button>
+                            </div>
+                        </div>
+                        <div class="barra2">
+                            <div class="descripcion">
+                                <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="amigo2">
+                        <div class="barra1">
+                            <div class="nombre">
+                                <h1>Nichole K</h1>
+                            </div>
+                            <div class="likes">
+                                <h5 class="contador2">12 like(s)</h5>
+                                <button class="like" onclick="AddLike2()">Like<button>
+                            </div>
+                        </div>
+                        <div class="barra2">
+                            <div class="descripcion">
+                                <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="amigo3">
+                        <div class="barra1">
+                            <div class="nombre">
+                                <h1>Jim R</h1>
+                            </div>
+                            <div class="likes">
+                                <h5 class="contador3">9 like(s)</h5>
+                                <button class="like" onclick="AddLike3()">Like<button>
+                            </div>
+                        </div>
+                        <div class="barra2">
+                            <div class="descripcion">
+                                <p>I can't stop listening to the <a href="#">new album</a>. Who else is linking it?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div> 
+        </div>       
+    </div>
+    <script src="js/script.js"></script>        
+</body>
+</html>
